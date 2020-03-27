@@ -4,7 +4,9 @@
 
 *Project by Beta_Codinators for HomeHack. <br />
 Our Web App services and devices are fully functional and are only intended for the benefit of society.*
-
+<br /><br />
+_**If you want to skip the description and go directly and setup CoVistron click here** - [setup:covistron](#Setup)_
+<br />
 ## The Problem
 
 The world is affected by the n-Cov virus and due to its highly contagious nature, many nations are forced to put their citizens under lockdown and confine them to their homes to curb this pandemic. But home-quarantine can be an unpleasant experience for many, especially for long periods involving several weeks. These people may also be compromising on the basic but important safety precautions advised by their respective health organistaions. All of these problems may lead to unprecedented consequences and would hamper the whole initiative.
@@ -18,8 +20,6 @@ Keeping in mind these issues, we have suitably devised CoVistron to be an umbrel
 - [CoVistron Web App](#CoVistron-Web-App)
 
 - [CoVistron Home-Automation](#Covistron-Home-Automation)
-<br />
-![Structure](Images/Structure.png?raw=true)
 <br />
 The smart devices have been devised to help people follow safety precautions without fail in an innovative and fun way. Home-Automation is also deployed as a precaution to minimise the physical contact of people with their home appliances to prevent disease transmission to their housemates in that manner.
 <br />
@@ -57,3 +57,71 @@ Additional sections include 'About us', 'Precautions'(to spread awareness) and '
 Home-Automation is powered by Bolt IoT. A Bolt WiFi-Module is required for this purpose. The CoVistron Web App allows users to execute home automation by logging in using their Bolt device credentials.
   
   
+## Setup
+
+### 1. CoVistron-Arduino Devices:
+
+To setup the CoVistron Arduino devices, check out the circuit and layout diagrams in the respective folders of each device at [Arduino-devices](Arduino) and assemble them. Upload the respective code of each device into your Arduinos using the Arduino IDE.
+
+<br />
+
+### 2. a) Web App:
+
+The CoVistron Web-App is built using the flask python framework. To run the web app, you must have the flask and boltiot python modules installed in addition to python.  
+
+#### For Linux users:
+
+Step 1 - Install dependancies
+<br />
+```
+$ sudo apt install python-pip
+$ pip install flask
+$ pip install boltiot
+```
+Step 2 - Clone the code into a fresh folder
+<br />
+```
+$ git clone https://github.com/abelzach/CoVistron.git
+$ cd Web_App
+```
+Step 3 - Run application.py to start the web app
+<br />
+```
+$ python application.py
+```
+Step 4 - Visit localhost:5000 in your browser and enjoy the CoVistron Web-App experience.
+
+#### For windows users:
+
+Step 1 - Make sure you have the python interpreter installed on your system. Go to [python](https://www.python.org/) and install it if you don't have it already.
+
+<br />
+Step 2 - Go to the python installed folder in your system and into the 'Scripts' folder. Then, open command window there and run the following in it.
+<br /> 
+```
+pip install flask
+pip install boltiot
+```
+If this step didn't work properly, search and try out some other method online to install flask on windows and do the same for boltiot.
+
+Step 3 - Download this repository as a zip file and extract it. Go to 'application.py' in the 'Web_App' folder and run it with the python interpreter to start the web app.
+<br />
+
+Step 4 - Visit localhost:5000 in your browser and enjoy the CoVistron Web-App experience.
+<br />
+
+### 2. b) Home-Automation with Bolt IoT
+
+Home-Automation is only possible for users who have a Bolt Wi-Fi Module with them.
+<br />
+Step 1 - Assemble the home-automation circuit as given in [Bolt-circuit-layout](Images/HomeAutomation_Circuit.jpg). Pins 0-3 of the Bolt Module can be used to connect the appliances while Pin 4 is used for the alert buzzer.
+<br />
+Step 2 - Run the CoVistron web app and visit the login page.
+<br />
+Step 3 - Enter the credentials of your Bolt Module to login.
+<br />
+Step 4 - Use the panel controls provided and enjoy CoVistron home_automation.
+<br />
+We appreciate your valuable suggestions to improve your experience.
+<br />
+Stay Safe!
