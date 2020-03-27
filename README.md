@@ -96,12 +96,12 @@ Step 4 - Visit localhost:5000 in your browser and enjoy the CoVistron Web-App ex
 Step 1 - Make sure you have the python interpreter installed on your system. Go to [python](https://www.python.org/) and install it if you don't have it already.
 
 <br />
-Step 2 - Go to the python installed folder in your system and into the 'Scripts' folder. Then, open command window there and run the following in it.
+Step 2 - Go to the python installed folder in your system and into the 'Scripts' folder. Then, open command window there and run the following commands in it.
 <br /> 
-```
 pip install flask
+<br />
 pip install boltiot
-```
+<br />
 If this step didn't work properly, search and try out some other method online to install flask on windows and do the same for boltiot.
 
 Step 3 - Download this repository as a zip file and extract it. Go to 'application.py' in the 'Web_App' folder and run it with the python interpreter to start the web app.
