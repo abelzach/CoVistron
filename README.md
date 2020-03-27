@@ -19,7 +19,7 @@ Keeping in mind these issues, we have suitably devised CoVistron to be an umbrel
 
 - [CoVistron Home-Automation](#Covistron-Home-Automation)
 <br />
-![layout](Structure.jpg?raw=true)
+![layout](Structure.png?raw=true)
 <br />
 The smart devices have been devised to help people follow safety precautions without fail in an innovative and fun way. Home-Automation is also deployed as a precaution to minimise the physical contact of people with their home appliances to prevent disease transmission to their housemates in that manner.
 <br />
