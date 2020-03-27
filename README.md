@@ -18,7 +18,9 @@ Keeping in mind these issues, we have suitably devised CoVistron to be an umbrel
 - [CoVistron Web App](#CoVistron-Web-App)
 
 - [CoVistron Home-Automation](#Covistron-Home-Automation)
-
+<br />
+![layout](Structure.jpg?raw=true)
+<br />
 The smart devices have been devised to help people follow safety precautions without fail in an innovative and fun way. Home-Automation is also deployed as a precaution to minimise the physical contact of people with their home appliances to prevent disease transmission to their housemates in that manner.
 <br />
 The Web App can be used to facilitate home-automation. In addition, it provides a real-time tracker of CoVid-19 cases around the world and in India. It has details of our smart devices and a small entertainment section providing hacks to overcome boredom. Moreover, it also has a section providing safety precautions to its users to promote awareness.
@@ -29,12 +31,20 @@ These devices are deployed to help you with safety precautions like washing your
 <br />
 #### 1. CoVistron Smart Cap:
 It helps you avoid touching your face by alerting you whenever you try to do so.
+<br />
+![Smart_Cap](Arduino/Smart_Cap/Cap_Plan.jpg?raw=true)
 
 #### 2. CoVistron Hand-washing Tracker:
 It promptly tracks your hand-washing time and cutely annoys you if you havent achieved the 20 seconds target.
+<br />
+![Smart_Tap](Arduino/Handwash_Tracker/Tap_Plan.jpg?raw=true)
+
 
 #### 3. CoVistron Contactless Handwash/Sanitizer Dispenser:
 It dispenses a suitable amount of handwash/sanitizer without physical contact by detecting the presence of your hands. It is useful in homes where multiple people share the same item.
+<br />
+![Safe_Dispenser](Arduino/Safe_Dispenser/Dispenser_Plan.jpg?raw=true)
+
 
 ### CoVistron Web App
 
