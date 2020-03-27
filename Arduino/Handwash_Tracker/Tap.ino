@@ -1,5 +1,5 @@
 int trigPin = 12;
-int echoPin = 11;
+int echoPin = 13;
 int Buzzer = 8;
 int duration, distance, dist;
 void setup() {
